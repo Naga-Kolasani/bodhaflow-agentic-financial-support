@@ -1,0 +1,50 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, type-checking, linting, and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local data stores and vector indexes
+chroma/
+chromadb/
+faiss_index/
+*.faiss
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and generated runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
