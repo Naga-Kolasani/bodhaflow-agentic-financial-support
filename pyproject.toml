@@ -1,0 +1,34 @@
+[project]
+name = "bodhaflow"
+version = "0.1.0"
+description = "A fictional, policy-grounded agentic financial support platform."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "pydantic>=2.0,<3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0,<9.0",
+    "ruff>=0.8,<1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bodhaflow"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
