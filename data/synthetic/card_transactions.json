@@ -1,0 +1,56 @@
+[
+  {
+    "transaction_id": "txn_001",
+    "customer_id": "cust_001",
+    "merchant_name": "Northstar Books",
+    "amount_minor": 1299,
+    "currency": "USD",
+    "status": "pending",
+    "created_at": "2026-01-15T14:30:00Z"
+  },
+  {
+    "transaction_id": "txn_002",
+    "customer_id": "cust_001",
+    "merchant_name": "Cedar Coffee House",
+    "amount_minor": 575,
+    "currency": "USD",
+    "status": "completed",
+    "created_at": "2026-01-14T09:15:00Z"
+  },
+  {
+    "transaction_id": "txn_003",
+    "customer_id": "cust_002",
+    "merchant_name": "Harbor Market",
+    "amount_minor": 4280,
+    "currency": "USD",
+    "status": "declined",
+    "created_at": "2026-01-13T18:45:00Z"
+  },
+  {
+    "transaction_id": "txn_004",
+    "customer_id": "cust_002",
+    "merchant_name": "Northstar Books",
+    "amount_minor": 1299,
+    "currency": "USD",
+    "status": "completed",
+    "created_at": "2026-01-12T16:20:00Z"
+  },
+  {
+    "transaction_id": "txn_005",
+    "customer_id": "cust_003",
+    "merchant_name": "Pine & Paper",
+    "amount_minor": 2100,
+    "currency": "USD",
+    "status": "reversed",
+    "created_at": "2026-01-11T11:00:00Z"
+  },
+  {
+    "transaction_id": "txn_006",
+    "customer_id": "cust_003",
+    "merchant_name": "Cedar Coffee House",
+    "amount_minor": 875,
+    "currency": "USD",
+    "status": "pending",
+    "created_at": "2026-01-10T08:30:00Z"
+  }
+]

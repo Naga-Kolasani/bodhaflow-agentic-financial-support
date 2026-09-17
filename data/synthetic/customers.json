@@ -1,0 +1,14 @@
+[
+  {
+    "customer_id": "cust_001",
+    "display_name": "Avery Stone"
+  },
+  {
+    "customer_id": "cust_002",
+    "display_name": "Jordan Lee"
+  },
+  {
+    "customer_id": "cust_003",
+    "display_name": "Morgan Patel"
+  }
+]
