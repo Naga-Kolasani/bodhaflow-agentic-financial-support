@@ -10,6 +10,7 @@ dependencies = [
     "pydantic-settings>=2.0,<3.0",
     "chromadb",
     "sentence-transformers",
+    "numpy>=2.5.3",
 ]
 
 [dependency-groups]
